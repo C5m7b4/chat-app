@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "watch": "ts-node-dev --respawn index.dev.ts"
+    "watch": "ts-node-dev --poll index.dev.ts"
   },
   "devDependencies": {
     "@types/config": "^3.3.0",
@@ -20,7 +20,7 @@
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "got": "^12.5.2",
+    "got": "11.8.1",
     "graphql": "15.5.0"
   },
   "_moduleAliases": {
